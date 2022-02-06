@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8" />
+    <title>Mi complejo deportivo</title>
+    <link rel="icon" href="icon.png" />
+    <meta name="description" content="Complejo deportivo MiEsfuerzo" />
+    <meta name="keywords" content="Deporte, Spinning, Zumba, Preparador Físico" />
+    <meta name="author" content="CFG" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+     <nav>
+         <ul class="ulnav">
+             <li class="linav"><a href="#">Quienes Somos</a></li>
+             <li class="linav"><a href="#">Profesores</a></li>
+             <li class="linav"><a href="#">Calendario</a></li>
+             <li class="linav"><a href="#">Registrar</a></li>
+         </ul>
+     </nav>
+
+
+    <h1>Complejo deportivo Mi Esfuerzo</h1>
+    <div class="div1">
+        <section>
+            <section>
+                <h3>Quienes Somos</h3>
+                <p>Algo de información...</p>
+            </section>
+            <section>
+                <h3>Profesores</h3>
+                <ol id="lista5">
+                    <li>Preparador físico: Luis María Bonini</li>
+                    <li>Spinning: Freddy Turbina</li>
+                    <li>Running: Erika Olivera</li>
+                    <li>Zumba: Pablo Vargas</li>
+                </ol>
+            </section>
+            <section>
+                <h3>Calendario</h3>
+                <table id="horarios">
+                    <thead>
+                        <tr>
+                            <th>Horario</th>
+                            <th>Lunes</th>
+                            <th>Martes</th>
+                            <th>Miércoles</th>
+                            <th>Jueves</th>
+                            <th>Viernes</th>
+                            <th>Sábado</th>
+                            <th>Domingo</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>9:00-10:00</td>
+                            <td>Zumba</td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                        </tr>
+                        <tr>
+                            <td>10:00-11:00</td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                        </tr>
+                        <tr>
+                            <td>11:00-12:00</td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                        </tr>
+                        <tr>
+                            <td>12:00-13:00</td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                        </tr>
+                        <tr>
+                            <td>13:00-14:00</td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                        </tr>
+                        <tr>
+                            <td>14:00-15:00</td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                        </tr>
+                        <tr>
+                            <td>15:00-16:00</td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                        </tr>
+                        <tr>
+                            <td>16:00-17:00</td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                        </tr>
+                        <tr>
+                            <td>17:00-18:00</td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                        </tr>
+                        <tr>
+                            <td>18:00-19:00</td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                        </tr>
+                        <tr>
+                            <td>19:00-20:00</td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                        </tr>
+                    </tbody>
+                </table>
+            </section>
+            <section id="formulario">
+            <div>
+                <h3>Inscripción</h3>
+                <form method="get" name="FormularioRegistro" >
+                    <label>Nombres:</label>
+                    <input type="text" name="nombres" title="Ingrese ambos nombres" required />
+                    <br/>
+                    <label>Primer Apellido</label>
+                    <input type="text" name="apellidoPaterno" title="Ingrese su apellido" required />
+                    <br/>
+                    <label>Segundo Apellido</label>
+                    <input type="text" name="apellidoMaterno" title="Ingrese su segundo apellido"/>
+                    <br/>
+                    <label>Edad</label>
+                    <input type="number" name="edad" title="Ingrese su edad, solo dígitos" required value="15" min="15" max="80" />
+                    <br/>
+                    <label>Tipo de Identificación</label>
+                    <select name="TipoIdentificacion" required>
+                        <option value="1" selected>CI</option>
+                        <option value="2">Pasaporte</option>
+                    </select>
+                    <br/>
+                    <label>Número de identificación</label>
+                    <input type="text" name="NumeroIdentificacion" title="Ingrese el numero de identificación" placeholder="CI: 01234567-8 / Pasaporte: X012345" required/>
+                    <br />
+                    <labe>¿Alergico?</labe>
+                    Sí <input type="radio" name="Alergias" value="Sí" />
+                    No <input type="radio" name="Alergias" value="No" checked />
+                    <br/>
+                    <label>Enfermedades relevantes:</label>
+                    <br/>
+                    <input type="checkbox" value="a" name="Enfermedades"><span>Enfermedades Cardiacas</span><br />
+                    <input type="checkbox" value="b" name="Enfermedades"><span>Diabetes</span><br />
+                    <input type="checkbox" value="c" name="Enfermedades"><span>Colesterol</span><br />
+                    <input type="checkbox" value="d" name="Enfermedades"><span>Lesiones graves</span><br />
+                    <input type="checkbox" value="e" name="Enfermedades"><span>Lesiones leves</span><br />
+                    <input type="checkbox" value="f" name="Enfermedades"><span>Otros</span>
+                    <br/>
+                    <label>Medicamentos contraindicados</label>
+                    <input type="text" name="MedicamentosContraindicados" title="Ingrese los nombres de medicamentos contraindicados." />
+                    <br/>
+                    <label>Nacionalidad</label>
+                    <input type="text" name="Nacional" title="Registre su nacionalidad"/>
+                    <br/>
+                    <input type="submit" name="Submit" value="Registrar" />
+                </form>
+            </div>
+            </section>
+        </section>
+    </div>
+    <footer>
+        <p>2022</p>
+        <p>Desarrollado por <a href="https://linkedin.com/">CFG</a></p>
+    </footer>
+</body>
+</html>

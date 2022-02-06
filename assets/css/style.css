@@ -1,0 +1,172 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@300&family=Roboto:ital,wght@0,300;1,100&family=Syne+Tactile&display=swap');
+
+
+body{ /* aplica un gradiente */
+    background-color: #c8c5c8;
+    background-image: linear-gradient(0deg, #c8c5c8 0%, #c7dbdb 50%, #ffffff 100%);
+
+}
+h1{
+    font-family: 'Merriweather', serif;
+    font-size: 50px;
+}
+h3{
+    text-align: center;
+    font-size: 35px;
+}
+
+.div1{
+    font-family: 'Roboto', sans-serif;
+}
+
+
+/* navbar */
+.ulnav {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+    }
+    
+.linav {
+    float: left;
+    }
+    
+.linav a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    }
+    
+.linav a:hover {
+    background-color: #111;
+    }
+/* fin navbar */
+
+
+/* lista */
+#lista5 {
+    counter-reset: li; 
+    list-style: none; 
+    *list-style: decimal; 
+    font: 15px 'trebuchet MS', 'lucida sans';
+    padding: 0;
+    margin-bottom: 4em;
+    text-shadow: 0 1px 0 rgba(255,255,255,.5);
+}
+
+#lista5 ol {
+    margin: 0 0 0 2em; 
+}
+
+
+#lista5 > li{
+    position: relative;
+    margin-bottom: 1.5em;
+    padding: 1.5em;
+    background-color: #eaeaea9a;
+}
+
+#lista5 > li:before {
+    position: absolute;
+    top: -0.3em;
+    left: -0.5em;
+    width: 1.8em;
+    height: 1.2em;
+     
+    font-size: 2em;
+    line-height: 1.2;
+    font-weight: bold;
+    text-align: center;
+    color: #46464691;
+    background-color: #d0d0d0a4;
+     
+    transform: rotate(-20deg);
+    -ms-transform: rotate(-20deg);
+    -webkit-transform: rotate(-20deg);
+    z-index: 99;
+    overflow: hidden;
+     
+    content: counter(li-counter);
+    counter-increment: li-counter;
+}
+/* fin lista */
+
+
+/*table */
+
+#horarios {
+    font-family: Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+    }
+    
+    #horarios td, #horarios th {
+    border: 1px solid #ddd;
+    padding: 8px;
+    }
+    
+    #horarios tr:nth-child(even){background-color: #f2f2f2;}
+    
+    #horarios tr:hover {background-color: #ddd;}
+    
+    #horarios th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    background-color: #333;
+    color: white;
+    }
+
+/*fin table*/
+
+
+
+
+
+/*form style*/
+
+input[type=text], select {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    }
+    
+    input[type=submit] {
+    width: 100%;
+    background-color: #1e1f1e;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    }
+    
+    input[type=submit]:hover {
+    background-color: #828582;
+    }
+    
+    #formulario {
+    border-radius: 5px;
+    background-color: #eeebeb;
+    padding: 20px;
+    }
+/*fin form style*/
+
+footer {
+    margin-top: 40px;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: #333;
+    color: rgb(255, 220, 220);
+    text-align: center;
+    }
